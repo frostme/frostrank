@@ -1,0 +1,28 @@
+{
+  "name": "frostrank",
+  "version": "0.0.0",
+  "description": "Relation Rank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:frostme/frostrank.git"
+  },
+  "keywords": [
+    "rank",
+    "search",
+    "weighted",
+    "importance"
+  ],
+  "author": "frostme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frostme/frostrank/issues"
+  },
+  "homepage": "https://github.com/frostme/frostrank",
+  "dependencies": {
+    "matrix-ops": "0.0.5"
+  }
+}
