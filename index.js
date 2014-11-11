@@ -7,9 +7,9 @@ module.exports = {
     var tolerance = opts.tolerance ? opts.tolerance : 0.000001;
 
     if(opts.type == 'weighted' || opts.type == 'w' || opts.type == 'weight'){
-      rankVector = object.unweighted(docs,opts.properties,tolerance);
+      rankVector = object.weighted(docs, tolerance, opts.properties);
     } else if(opts.type == 'unweighted' || opts.type == 'u' || opts.type =='unweight') {
-      rankVector = object.weighted(docs, opts.properties,tolerance);
+      rankVector = object.unweighted(docs, tolerance, opts.properties);
     }
 
     if(cb){
